@@ -1,0 +1,21 @@
+{
+  "name": "Helloween Bot backend",
+  "version": "1.0.0",
+  "description": "A backend for HelloweenBot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Alexkat",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.15.0",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.1.0"
+  }
+}
